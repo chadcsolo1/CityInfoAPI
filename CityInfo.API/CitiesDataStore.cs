@@ -8,7 +8,7 @@ namespace CityInfo.API
         //This keeps the data store as a singleton, while using the static keyword
         //So while we are in the same application session, we will continue to work on the
         //same CitiesDataStore
-        public static CitiesDataStore Current { get; set; } = new CitiesDataStore();
+        //public static CitiesDataStore Current { get; set; } = new CitiesDataStore();
         public CitiesDataStore()
         {
            Cities = new List<CityDto>()
